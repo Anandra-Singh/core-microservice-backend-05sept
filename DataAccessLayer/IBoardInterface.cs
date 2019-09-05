@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace core_microservice_backend.DataAccessLayer
 {
-    interface IBoardInterface
+     public interface IBoardInterface
     {
         List<Board> GetBoards();
         bool UpdateBoard(int boardId, Board board);

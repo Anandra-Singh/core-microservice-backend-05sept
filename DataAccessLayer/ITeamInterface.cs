@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace core_microservice_backend.DataAccessLayer
 {
-    interface ITeamInterface
+      public interface ITeamInterface
     {
         List<Team> GetTeams();
         bool UpdateTeam(int teamId, Team team);
